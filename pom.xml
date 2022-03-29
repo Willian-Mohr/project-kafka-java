@@ -14,6 +14,8 @@
         <module>service-log</module>
         <module>common-kafka</module>
         <module>service-fraud-detector</module>
+        <module>service-users</module>
+        <module>service-http-ecommerce</module>
     </modules>
 
     <properties>
@@ -39,6 +41,13 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.9</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
